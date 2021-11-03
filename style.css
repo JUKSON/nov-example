@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: gray;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 80px;
+  color: white;
+  margin: 0;
+}
+
+.section {
+  display: flex;
+}
+
+.first-section {
+  background-color: #d5cdcd;
+  width: 40%;
+  padding: 30px 80px 80px 20px;
+}
+
+.second-section {
+  background-color: white;
+  padding: 20px 20px 100px 20px;
+}
+
+.main-footer {
+  background-color: gray;
+  padding: 30px 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
