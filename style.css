@@ -1,36 +1,45 @@
-body {
-  font-family: sans-serif;
+* {
+  box-sizing: border-box;
 }
 
 header {
-  background-color: gray;
+  background-color: #666;
   text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  padding: 80px;
   color: white;
-  margin: 0;
+  padding: 20px;
+  font-size: 35px;
 }
 
-.section {
-  display: flex;
+nav {
+  float: left;
+  width: 30%;
+  height: 400px;
+  background-color: #ccc;
+  padding: 20px;
 }
 
-.first-section {
-  background-color: #d5cdcd;
-  width: 40%;
-  padding: 30px 80px 80px 20px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.second-section {
-  background-color: white;
-  padding: 20px 20px 100px 20px;
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 400px;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 
-.main-footer {
-  background-color: gray;
-  padding: 30px 30px;
+footer {
+  background-color: #666;
+  padding: 12px;
   text-align: center;
-  font-weight: bold;
   color: white;
+  clear: left;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #666;
 }
