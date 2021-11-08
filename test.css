@@ -1,0 +1,12 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: #ccc;
+  color: #0084ff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 50px;
+}
