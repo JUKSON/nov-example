@@ -12,21 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.main-nav {
-  position: absolute;
-  top: 0;
-  right: 3rem;
-}
-
-.main-nav li {
-  list-style-type: none;
-}
-
-.main-nav a {
-  text-decoration: none;
-  color: white;
-}
-
 .main-header {
   display: flex;
   flex-direction: column;
